@@ -26,6 +26,10 @@ p {
   -webkit-box-orient: vertical;
 }
 
+// .topfixed {
+//   top: -50px;
+// }
+
 .bigimg {
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -157,6 +161,28 @@ p {
       text-decoration: underline;
     }
   }
+}
+
+.top-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 100; /* 버튼이 다른 요소들 위에 위치하도록 설정 */
+  display: inline-block;
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  text-decoration: none; /* 링크 밑줄 제거 */
+  cursor: pointer;
+  background-color: #6c6c6f6a;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+}
+
+.top-button:hover {
+  background-color: #b929296b;
 }
 
 .mid {
