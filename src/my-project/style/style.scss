@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+$border-color: #ccc;
+$font-family: arial, sans-serif;
+$margin: 20px;
+$padding: 10px;
+
+body {
+  margin: $margin;
+  font-family: $font-family;
+}
+
+.products,
+.cart {
+  margin-top: $margin;
+}
+
+.product,
+.cart-item {
+  padding: $padding;
+  margin-bottom: $margin;
+  border: 1px solid $border-color;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
