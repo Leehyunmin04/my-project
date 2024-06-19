@@ -257,7 +257,6 @@ p {
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: auto auto;
-  grid-column: 1/-1;
   max-width: 100%;
   color: #424243;
 }
@@ -277,8 +276,8 @@ p {
   grid-column: 2;
   align-self: center;
   align-self: last baseline;
-  padding-left: 350px;
   font-size: 20px;
+  text-align: right;
 }
 
 .newimg {
