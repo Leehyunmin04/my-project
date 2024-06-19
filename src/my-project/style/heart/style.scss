@@ -105,19 +105,6 @@ body {
   }
 }
 
-.truck {
-  padding-top: 200px;
-
-  &__wrapper {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    width: 1200px;
-    padding: 20px;
-    margin-inline: auto;
-    border: 2px solid #acacaf35;
-  }
-}
-
 .search {
   display: grid;
   grid-template-columns: 40px auto;
@@ -146,13 +133,6 @@ body {
     align-self: center;
     width: 40px;
   }
-}
-
-.bigtitle {
-  padding-inline: 20px;
-  padding-bottom: 50px;
-  font-size: 60px;
-  font-weight: 700;
 }
 
 .logo {
@@ -216,7 +196,6 @@ body {
 
 .up {
   width: 1200px;
-  max-width: 100%;
   padding-top: 200px;
   margin-inline: auto;
 
@@ -225,20 +204,6 @@ body {
     grid-template-columns: 1fr 1fr;
     border: 2px solid #acacaf35;
     border-radius: 25px;
-  }
-}
-
-.delivery {
-  margin-inline: auto;
-  line-height: 30px;
-
-  > div {
-    font-size: 20px;
-    font-weight: 600;
-  }
-
-  &--cart {
-    transform: scaleX(-1);
   }
 }
 
