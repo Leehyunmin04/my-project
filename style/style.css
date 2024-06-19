@@ -92,7 +92,7 @@ p {
     display: block;
   }
 }
-.a__list {
+.a-list {
   display: grid;
   grid-template-columns: 1fr repeat(2, 1fr);
   -moz-column-gap: 20px;
