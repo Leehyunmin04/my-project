@@ -11,24 +11,12 @@ body {
   margin: 0;
 }
 
-// a {
-//   cursor: pointer;
-
-//   a:hover {
-//     cursor: pointer;
-//   }
-// }
-
 p {
   display: -webkit-box;
   overflow: hidden;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
 }
-
-// .topfixed {
-//   top: -50px;
-// }
 
 .bigimg {
   aspect-ratio: 1 / 1;
@@ -80,41 +68,18 @@ p {
 .iconicon {
   display: grid;
   grid-template-columns: 1fr repeat(2, 1fr);
-
-  // grid-column: -1;
   column-gap: 20px;
   padding-inline: 20px;
-
-  // padding-left: 165px;
 }
-
-// .menuicon {
-//   display: none;
-//   width: 40px;
-//   list-style: none;
-//   cursor: pointer;
-
-//   &__simple {
-//     &:hover {
-//       color: crimson;
-//     }
-//   }
-
-//   &__i {
-//     padding: 3px;
-//     border-radius: 15px;
-
-//     &:hover {
-//       color: crimson;
-//       box-shadow: 0 4px 5px 0 rgb(0 0 0 / 30%);
-//     }
-//   }
-// }
 
 .iconmenu {
   display: none;
+  align-self: center;
   width: 40px;
   padding: 3px;
+  padding-top: 5px;
+  margin-inline: auto;
+  cursor: pointer;
   border-radius: 15px;
 
   &:hover {
@@ -134,7 +99,15 @@ p {
   }
 }
 
+.a__list {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 1fr);
+  column-gap: 20px;
+  padding-inline: 20px;
+}
+
 .a {
+  position: relative;
   width: 40px;
   list-style: none;
 
@@ -146,7 +119,9 @@ p {
 
   &__i {
     padding: 3px;
+    cursor: pointer;
     border-radius: 15px;
+    transition: all 0.3s ease;
 
     &:hover {
       color: crimson;
@@ -297,12 +272,6 @@ p {
   }
 
   &__eventplay {
-    // position: relative;
-    // top: -80px;
-    // left: 635px;
-    // width: 500px;
-    // max-width: 100%;
-
     &--pic {
       position: relative;
       top: -80px;
@@ -345,7 +314,6 @@ p {
 }
 
 .newimg {
-  // display: block;
   list-style: none;
 
   &__in {
@@ -364,11 +332,6 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 50px;
-
-  // &__img {
-  //   grid-row: 1;
-  //   grid-column: 1 / 2;
-  // }
 
   &__left {
     grid-row: 2;

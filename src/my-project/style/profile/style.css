@@ -153,6 +153,8 @@ body {
 }
 
 .up {
+  width: 1200px;
+  max-width: 100%;
   padding-top: 200px;
   margin-inline: auto;
 }

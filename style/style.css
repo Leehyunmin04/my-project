@@ -70,8 +70,12 @@ p {
 
 .iconmenu {
   display: none;
+  align-self: center;
   width: 40px;
   padding: 3px;
+  padding-top: 5px;
+  margin-inline: auto;
+  cursor: pointer;
   border-radius: 15px;
 }
 .iconmenu:hover {
@@ -88,7 +92,16 @@ p {
     display: block;
   }
 }
+.a__list {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding-inline: 20px;
+}
+
 .a {
+  position: relative;
   width: 40px;
   list-style: none;
 }
@@ -97,7 +110,9 @@ p {
 }
 .a__i {
   padding: 3px;
+  cursor: pointer;
   border-radius: 15px;
+  transition: all 0.3s ease;
 }
 .a__i:hover {
   color: crimson;
