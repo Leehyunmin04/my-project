@@ -159,6 +159,13 @@ body {
   }
 }
 
+.not {
+  width: 800px;
+  max-width: 100%;
+  padding-top: 200px;
+  margin-inline: auto;
+}
+
 .section {
   &__wrapper {
     display: grid;
@@ -189,21 +196,6 @@ body {
   &:hover {
     color: crimson;
     text-decoration: underline;
-  }
-}
-
-// 여기서부터
-
-.up {
-  width: 1200px;
-  padding-top: 200px;
-  margin-inline: auto;
-
-  &__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 2px solid #acacaf35;
-    border-radius: 25px;
   }
 }
 
@@ -275,41 +267,6 @@ body {
 .bot {
   width: 1200px;
   margin-inline: auto;
-}
-
-.main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 70px 30px;
-  width: 100%;
-  padding-inline: 20px 60px;
-  padding-top: 200px;
-  margin-inline: auto;
-
-  &__box {
-    // background-color: #6c6c6f;
-    border: 2px solid #6c6c6f15;
-    border-radius: 15px;
-
-    &:hover {
-      border: 2px solid #6c6c6f;
-    }
-  }
-
-  &__text {
-    padding-block: 10px 20px;
-    padding-inline: 17px;
-    font-size: 18px;
-    color: #58585b;
-
-    &:hover {
-      color: #262626;
-    }
-
-    &--name {
-      font-weight: 550;
-    }
-  }
 }
 
 .bottom {
