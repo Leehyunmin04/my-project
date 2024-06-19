@@ -476,6 +476,54 @@ p {
   padding-top: 100px;
 }
 
+.bests {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  width: 1200px;
+  max-width: 100%;
+  padding-top: 200px;
+  margin-inline: auto;
+
+  &-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+  }
+
+  &-input {
+    display: none;
+  }
+
+  &-label {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f1ef;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #bcb8b9;
+    }
+  }
+
+  &-img {
+    display: none;
+    max-width: 100%;
+  }
+
+  &-input:checked + .bests-label + .bests-img {
+    display: block;
+  }
+}
+
+// .bests-wrapper {
+//   display: grid;
+//   grid-template-columns: repeat(3, 1fr);
+//   gap: 10px;
+//   text-align: center;
+// }
+
 .newmain {
   width: 1200px;
   max-width: 100%;

@@ -391,6 +391,41 @@ p {
   padding-top: 100px;
 }
 
+.bests {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  width: 1200px;
+  max-width: 100%;
+  padding-top: 200px;
+  margin-inline: auto;
+}
+.bests-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+.bests-input {
+  display: none;
+}
+.bests-label {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f4f1ef;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.bests-label:hover {
+  background-color: #bcb8b9;
+}
+.bests-img {
+  display: none;
+  max-width: 100%;
+}
+.bests-input:checked + .bests-label + .bests-img {
+  display: block;
+}
+
 .newmain {
   width: 1200px;
   max-width: 100%;
