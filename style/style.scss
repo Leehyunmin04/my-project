@@ -118,6 +118,7 @@ p {
   border-radius: 15px;
 
   &:hover {
+    place-items: center center;
     color: crimson;
     box-shadow: 0 4px 5px 0 rgb(0 0 0 / 30%);
   }
