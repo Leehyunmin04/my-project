@@ -202,15 +202,91 @@ body {
   &__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 100px;
     text-align: center;
 
     // border: 2px solid #acacaf35;
     // border-radius: 25px;
   }
+
+  &--wpr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-block: 50px;
+    text-align: center;
+  }
+}
+
+.textbrand {
+  padding-top: 100px;
+  font-size: 50px;
+  color: #424243;
+  text-align: center;
+
+  &--top {
+    padding-bottom: 50px;
+    font-size: 70px;
+    font-weight: 800;
+    color: #424243;
+  }
+
+  @keyframes rainbow {
+    0%,
+    100% {
+      color: red;
+    }
+
+    14% {
+      color: orange;
+    }
+
+    28% {
+      color: yellow;
+    }
+
+    42% {
+      color: green;
+    }
+
+    57% {
+      color: blue;
+    }
+
+    71% {
+      color: indigo;
+    }
+
+    85% {
+      color: violet;
+    }
+  }
+
+  &__play {
+    padding-block: 80px;
+    margin-bottom: 0;
+    font-size: 70px;
+    text-align: center;
+    animation: rainbow 3s infinite;
+  }
+}
+
+.sdw {
+  border-radius: 10px;
+  box-shadow: 0 20px 40px 0 rgb(0 0 0 / 38.6%);
+}
+
+.small-icon {
+  width: 55px;
 }
 
 .profile {
   padding-right: 50px;
+}
+
+.plofont {
+  font-size: 25px;
+  font-weight: 450;
+  color: #262626;
 }
 
 .profilepic {
