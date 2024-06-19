@@ -44,6 +44,7 @@ p {
   position: fixed;
   left: 50%;
   width: 100%;
+  max-width: 100%;
   max-width: 1200px;
   margin-inline: auto;
   text-align: center;
@@ -191,7 +192,8 @@ p {
 
 .mid {
   display: grid;
-  max-width: 1200px;
+  width: 1200px;
+  max-width: 100%;
   padding-top: 180px;
   margin-inline: auto;
 }
@@ -256,6 +258,7 @@ p {
   grid-template-rows: auto auto;
   grid-template-columns: auto auto;
   grid-column: 1/-1;
+  max-width: 100%;
   color: #424243;
 }
 .main__in {
