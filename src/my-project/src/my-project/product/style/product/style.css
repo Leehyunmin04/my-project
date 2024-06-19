@@ -130,6 +130,7 @@ body {
   -moz-column-gap: 20px;
        column-gap: 20px;
   max-width: 1200px;
+  max-width: 100%;
   margin-inline: auto;
 }
 
@@ -155,6 +156,7 @@ body {
 
 .up {
   width: 1200px;
+  max-width: 100%;
   padding-top: 200px;
   margin-inline: auto;
 }
@@ -223,6 +225,7 @@ body {
 
 .bot {
   width: 1200px;
+  max-width: 100%;
   margin-inline: auto;
 }
 
